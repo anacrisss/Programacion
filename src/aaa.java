@@ -1,13 +1,20 @@
-import java.util.*;
+/**
+ *
+ * Muestra los números múltiplos de 5 de 0 a 100 utilizando un bucle while
+ *
+ * @author Francisco Javier Reina Benítez
+ *
+ * Ejercicio 2 Tema 5
+ */
+
 public class aaa {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		for(int i=0;i<10;i++) {
-			System.out.println (i);
-			
-		}
-	}
-
+  public static void main(String[] args) {
+    
+    int i = 5;
+    while (i <= 100) {
+      System.out.println(i);
+      i+=5;
+    }
+  }
 }
